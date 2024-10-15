@@ -1,0 +1,89 @@
+{
+  "id": "a57f0694-22fc-4cb8-ba8c-901858b90135",
+  "version": "2.0",
+  "name": "google",
+  "url": "https://www.facebook.com/",
+  "tests": [{
+    "id": "b047dd91-d5e2-4ca1-874d-cfe55f62e06b",
+    "name": "ggg",
+    "commands": [{
+      "id": "5ab80c22-f611-4308-8748-1e44b1c105db",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ebddc67-a326-4049-8825-42711f2ab3bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c46dc04a-ffff-44c3-8e28-921a0ab57724",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,90.66666412353516)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd120629-3bb7-4f4a-b533-d37597124d74",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,532)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8098057-201f-4d47-aa59-de5ee1b82864",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6405783-21ab-4fa7-9764-93e94a2c3025",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.x1iyjqo2:nth-child(2) > .x4k7w5x .x1i10hfl",
+      "targets": [
+        ["css=.x1iyjqo2:nth-child(2) > .x4k7w5x .x1i10hfl", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_cc']/div/div/div/div/div[2]/div[4]/div/div/div/ul/li[2]/span/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/watch/?ref=tab')]", "xpath:href"],
+        ["xpath=//li[2]/span/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb12da5a-f720-4054-a10e-f35399f94458",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.x1iyjqo2:nth-child(2) > .x4k7w5x .x1i10hfl",
+      "targets": [
+        ["css=.x1iyjqo2:nth-child(2) > .x4k7w5x .x1i10hfl", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_cc']/div/div/div/div/div[2]/div[4]/div/div/div/ul/li[2]/span/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/watch/?ref=tab')]", "xpath:href"],
+        ["xpath=//li[2]/span/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33b71a38-12a5-4749-815e-40cb7476a03c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x6s0dn4:nth-child(2) > .x4k7w5x .x19dipnz",
+      "targets": [
+        ["css=.x6s0dn4:nth-child(2) > .x4k7w5x .x19dipnz", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4d4712a9-81a3-4018-8b09-49418324f4f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com/", "https://www.facebook.com/"],
+  "plugins": []
+}
